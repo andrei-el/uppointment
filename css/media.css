@@ -1,0 +1,289 @@
+@media (max-width: 1300px) {
+  .about-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .about-card {
+    justify-self: center;
+  }
+
+  .price__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .price__card {
+    justify-self: center;
+  }
+
+  .footer__nav {
+    padding-left: 10px;
+  }
+}
+
+
+@media (max-width: 1220px) {
+  .slider-paragraph {
+    padding-top: 100px;
+  }
+
+  .swiper-slide__content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .slide-content {
+    margin-bottom: 20px;
+  }
+
+  .swiper-menu {
+    height: 950px;
+  }
+
+  .form__content {
+    padding: 120px 100px 126px 100px;
+  }
+
+  .form-box {
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width: 1150px) {
+  .header-left nav {
+    display: none;
+  }
+
+  .header__burger {
+    display: block;
+  }
+
+  .slider-wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1440px;
+    column-gap: 175px;
+  }
+
+  .swiper-mini {
+    display: none;
+  }
+
+  .swiper-button-next {
+    top: auto;
+    bottom: 3%;
+    left: 65%;
+  }
+
+  .easy-box__logo-wrap {
+    padding: 0 15px;
+  }
+}
+
+
+@media (max-width: 790px) {
+  .about__h1 {
+    font-size: 60px;
+  }
+  .easy-box__text {
+    padding-left: 15px;
+  }
+  .slide__h2 {
+    font-size: 30px;
+  }
+  .slider-paragraph {
+    padding: 0 50px 40px;
+  }
+  .swiper-point {
+    padding: 40px 80px;
+  }
+  .swiper-point__flex {
+    column-gap: 15px;
+  }
+  .slider-paragraph__h2 {
+    font-size: 30px;
+  }
+  .slider-paragraph-wrap {
+    margin-bottom: 0;
+  }
+  .footer__container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+  }
+  .footer__logo {
+    justify-self: center;
+  }
+}
+
+
+@media (max-width: 680px) {
+  .about-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .price__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .swiper-point {
+    padding: 20px 40px;
+  }
+
+  .form-wrap {
+    flex-wrap: wrap;
+  }
+  .form__head::after {
+    width: 100%;
+    height: 1px;
+    top: auto;
+    bottom: 0%;
+  }
+  .form__head {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .form__head-h2 {
+    text-align: center;
+  }
+  .form__head-p {
+    margin: 0 auto;
+  }
+  .form__content {
+    padding: 40px;
+  }
+  .form-left {
+    margin: 0 auto;
+  }
+  .form-right {
+    margin: 0 auto;
+  }
+  .input_business, .input-phone {
+    width: 264px;
+  }
+  .form__button {
+    display: block;
+    margin: 0 auto;
+  }
+  .footer__content {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+  }
+}
+
+
+@media (max-width: 520px) {
+  header {
+    height: 140px;
+  }
+  .header {
+    flex-wrap: wrap;
+  }
+  .header-right {
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  .slider-content {
+    padding-left: 15px;
+  }
+  .swiper-pagination {
+    bottom: 8% !important;
+    left: 50% !important;
+  }
+  .swiper-button-next {
+    top: auto;
+    bottom: 4%;
+    left: 53%;
+  }
+  .slider-paragraph {
+    padding: 30px 15px;
+  }
+}
+
+
+@media (max-width: 430px) {
+  .easy-box {
+    padding-bottom: 50px;
+  }
+  .easy-box__text_h4 {
+    padding-top: 50px;
+  }
+  .swiper-point {
+    padding: 10px 15px;
+  }
+  .swiper-point__flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 15px;
+  }
+  .swiper-point__number {
+    font-size: 60px;
+  }
+  .swiper-point__block_h4 {
+    font-size: 20px;
+  }
+  .swiper-point__block_p {
+    font-size: 13px;
+  }
+  .price__cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 390px) {
+  .about__h1 {
+    font-size: 40px;
+  }
+  .about {
+    padding-bottom: 50px;
+  }
+  .swiper-point__flex {
+    row-gap: 0;
+  }
+  .swiper-point__number {
+    font-size: 50px;
+    line-height: normal;
+  }
+  .input_business, .input-phone {
+    max-width: 265px;
+    width: 100%;
+  }
+  .form__button {
+    max-width: 268px;
+    width: 100%;
+  }
+  .footer {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .footer__form form {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 15px;
+  }
+  .swiper-button-next {
+    top: auto;
+    bottom: 0%;
+    left: 25%;
+    z-index: 0;
+  }
+  .swiper-pagination {
+    bottom: 4% !important;
+    left: 35% !important;
+    z-index: 0;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .about__h1 {
+    line-height: normal;
+  }
+  .easy-box__links-wrap {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+}
