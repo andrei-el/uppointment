@@ -109,6 +109,9 @@
   .slider-paragraph-wrap {
     margin-bottom: 0;
   }
+  .form__content {
+    padding: 120px 50px 60px 60px;
+  }
   .footer__container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
