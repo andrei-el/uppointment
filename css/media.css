@@ -249,6 +249,14 @@
     font-size: 50px;
     line-height: normal;
   }
+  .slide-content-text {
+    padding-top: 50px;
+    padding-bottom: 120px;
+  }
+  .easy-box__links-wrap {
+    column-gap: 28px;
+    margin-right: 14px;
+  }
   .input_business, .input-phone {
     max-width: 265px;
     width: 100%;
@@ -270,12 +278,17 @@
     top: auto;
     bottom: 0%;
     left: 25%;
-    z-index: 0;
+    z-index: 1;
   }
   .swiper-pagination {
     bottom: 4% !important;
     left: 35% !important;
-    z-index: 0;
+    z-index: 1;
+  }
+  .slider-paragraph__buttons {
+    flex-wrap: wrap;
+    row-gap: 15px;
+    justify-content: center;
   }
 }
 
@@ -287,6 +300,8 @@
   .easy-box__links-wrap {
     padding-left: 10px;
     padding-right: 10px;
+    flex-wrap: wrap;
+    row-gap: 15px;
   }
   
 }
