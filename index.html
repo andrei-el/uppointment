@@ -787,15 +787,15 @@
         <div class="form__content">
           <div class="form__content_wrap">
             <h2 class="form__content-h2 h2">Book a call</h2>
-            <form action="">
+            <form action="" method="post">
               <label class="p_12_600" for="name">Contact name</label>
-              <input class="input__name" type="text" id="name" placeholder="Full name">
+              <input class="input__name" type="text" name="name" id="name" placeholder="Full name">
               <div class="form-box">
                 <div class="form-left">
                   <label class="p_12_600" for="company">Company name</label>
-                  <input class="input__company" type="text" id="company" placeholder="Company name">
+                  <input class="input__company" type="text" name="company_name" id="company" placeholder="Company name">
                   <label class="p_12_600" for="email">Email</label>
-                  <input class="input-email" type="email" id="email" placeholder="Email">
+                  <input class="input-email" type="email" name="email" id="email" placeholder="Email">
                 </div>
                 <div class="form-right">
                   <label class="input_business_label p_12_600" for="business">Business type</label>
@@ -810,7 +810,7 @@
                     <input class="dropdown__input-hidden" id="business" type="text" name="select-category" value="">
                   </div>
                   <label class="p_12_600" for="phone">Phone</label>
-                  <input class="input-phone" type="tel" id="phone" placeholder="Phone">
+                  <input class="input-phone" type="tel" name="phone" id="phone" placeholder="Phone">
                 </div>
               </div>
               <button class="form__button p_16_600" type="submit">Select date and time</button>
